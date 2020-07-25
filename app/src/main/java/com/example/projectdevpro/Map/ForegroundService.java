@@ -1,4 +1,4 @@
-package com.example.projectdevpro;
+package com.example.projectdevpro.Map;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -13,6 +13,7 @@ import android.os.IBinder;
 import androidx.core.app.NotificationCompat;
 
 import com.example.projectdevpro.Main.MainActivity;
+import com.example.projectdevpro.R;
 
 
 public class ForegroundService extends Service {

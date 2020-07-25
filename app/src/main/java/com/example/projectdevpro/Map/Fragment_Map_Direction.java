@@ -1,4 +1,4 @@
-package com.example.projectdevpro;
+package com.example.projectdevpro.Map;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -27,6 +27,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
 import com.example.projectdevpro.Object.Teacher;
+import com.example.projectdevpro.R;
 import com.example.projectdevpro.databinding.FragmentMapDirectionBinding;
 import com.here.android.mpa.common.ApplicationContext;
 import com.here.android.mpa.common.GeoBoundingBox;

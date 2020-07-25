@@ -1,4 +1,4 @@
-package com.example.projectdevpro;
+package com.example.projectdevpro.Map;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
 
+import com.example.projectdevpro.R;
 import com.google.android.gms.maps.model.LatLng;
 
 import java.io.IOException;

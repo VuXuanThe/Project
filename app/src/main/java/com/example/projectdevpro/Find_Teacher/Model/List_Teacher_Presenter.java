@@ -3,27 +3,18 @@ package com.example.projectdevpro.Find_Teacher.Model;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Build;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import com.example.projectdevpro.Find_Teacher.Interface.ILoadTeacher;
-import com.example.projectdevpro.GPSLocation;
 import com.example.projectdevpro.LoadImageUser.IloadImage;
 import com.example.projectdevpro.LoadImageUser.LoadImage;
 import com.example.projectdevpro.Object.Teacher;
 import com.example.projectdevpro.R;
 import com.example.projectdevpro.Retrofit.Interface.JsonPlaceHolderAPITeacher;
 import com.example.projectdevpro.Retrofit.RetrofitClient;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.here.android.mpa.common.ApplicationContext;
-import com.here.android.mpa.common.GeoCoordinate;
 import com.here.android.mpa.common.Image;
-import com.here.android.mpa.common.PositioningManager;
 import com.here.android.mpa.mapping.AndroidXMapFragment;
 import com.here.android.mpa.mapping.Map;
 
